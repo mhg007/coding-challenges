@@ -69,5 +69,6 @@ public class AnagramDemo{
     Solution sol = new Solution();
     String[] str = {"eat","tea","tan","ate","nat","bat"};
     System.out.println(sol.groupAnagramsPractice(str));
+
   }
 }

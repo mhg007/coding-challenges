@@ -10,6 +10,7 @@ class ValidParenthesis {
         }
         if(str == "")
             return false;
+            
         Stack<Character> stack = new Stack<>();
         for(char ch : str.toCharArray()){
             if(_checkLeftParenthesis(ch)){
